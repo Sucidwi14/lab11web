@@ -8,11 +8,11 @@
 ### Langkah-langkah
 1. Mengaktifkan Ekstensi
 - Aktifkan ekstensi tersebut melalui XAMPP Control Panel pada bagian Apache dengan cara klik Config -> PHP.ini seperti berikut.
-![image](https://user-images.githubusercontent.com/101724604/172684173-34e37c50-82fc-459c-b344-9733d5071480.png)
+![Screenshot (305)](https://user-images.githubusercontent.com/101787968/174429021-75e0a8f6-05ad-4e6a-879d-249a21ce13b0.png)
 
 - Lalu pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan diaktifkan seperti berikut. Kemudian simpan kembali filenya dan restart Apache web server.
 
-![image](https://user-images.githubusercontent.com/101724604/172684725-a2d39422-0b20-4cbc-98db-b620f2aa00a1.png)
+![Screenshot (306)](https://user-images.githubusercontent.com/101787968/174429090-20ae8c50-880e-4841-b7a5-cdff8ffdeb6c.png)
 2. Instalasi CodeIgniter 4
 - Codeigniter dapat didownload dari website https://codeigniter.com/download
 
@@ -21,12 +21,13 @@
 - Ubah nama directory framework-4.x.xx menjadi ci4.
 
 - Buka browser dengan alamat http://localhost/lab11web_ci/ci4/public/ Untuk melakukan instalasi Codeigniter 4 dapat dilakukan dengan dua cara, yaitu cara manual dan menggunakan composer. Pada praktikum ini kita menggunakan cara manual seperti berikut.
-- 
-![image](https://user-images.githubusercontent.com/101724604/172692448-445e2bc2-15d2-4c81-a7d9-fb24e4b74272.png)
+
+![Screenshot (307)](https://user-images.githubusercontent.com/101787968/174429120-3832949c-3b63-4198-b068-3227019d9da5.png)
+
 3. Menjalankan CLI (Command Line Interface)
 Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt, lalu arahkan lokasi direktori sesuai dengan direktori kerja project dibuat (C:\xampp\htdocs\Lab11web_ci\ci4). Kemudian setelah itu jalankan perintah untuk memanggil CLI Codeigniter
 
-![image](https://user-images.githubusercontent.com/101724604/172692342-025f5a66-8864-4c9c-9ea1-bd8ce64a40f8.png)
+![Screenshot (309)](https://user-images.githubusercontent.com/101787968/174429158-779a2cde-5d5f-4e8d-af7d-0923566d5e96.png)
 
 4.Mengaktifkan Mode Debugging Codeigniter 4 menyediakan fitur debugging untuk memudahkan developer untuk mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program. Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan pesan kesalahan seperti berikut.
 ![image](https://user-images.githubusercontent.com/101724604/173069823-85f737c2-4ee3-4ccf-9c3e-6d3a84e2eeea.png)
