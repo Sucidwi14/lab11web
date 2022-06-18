@@ -1,8 +1,8 @@
 # lab11web
 
-### Nama  : Monica Fabiola Pasaribu
+### Nama  : SUCI DWI FRATIWI
 ### Kelas : TI.20.D1
-### NIM   : 312010083
+### NIM   : 312010143
 
 ### Praktikum 11: PHP Framework (Codeigniter)
 ### Langkah-langkah
