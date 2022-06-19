@@ -34,27 +34,26 @@ Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengak
 
 Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis errornya, maka perlu mengaktifkan mode debugging dengan mengubah nilai konfigurasi pada environment variable CI_ENVIRONMENT menjadi development. Kemudian mengubah nama file env menjadi .env lalu setelah itu buka file tersebut dan ubah nilai variable CI_ENVORNMENT menjadi development. Setelah mengubah nilai konfigurasi pada environment variable CI_ENVIRONMENT menjadi development. maka hapus tanda tagar (#) pada awal baris CI_ENVIRONMENT. Dan yang terakhir, ubah kode pada file app/Controller/Home.php kemudian hilangkan titik koma (;) pada akhir kode seperti berikut.
 
-![image](https://user-images.githubusercontent.com/101724604/173071473-730f72a0-a8d6-4e63-bce9-82570006bb9f.png)
+![Screenshot (312)](https://user-images.githubusercontent.com/101787968/174461279-3bfacf28-7463-489e-a151-b519ba3d69c1.png)
 
 Maka hasilnya akan terjadi error seperti berikut.
 
-![image](https://user-images.githubusercontent.com/101724604/173080741-0b385558-d927-4865-b730-e51863539ad6.png)
+![Screenshot (313)](https://user-images.githubusercontent.com/101787968/174461283-d0f89f22-59af-4721-8a3f-422b1fb2e12b.png)
 
 5. Membuat Route Baru. Menambahkan kode di dalam Routes.php seperti berikut.
 
-![image](https://user-images.githubusercontent.com/101724604/173074122-a22228ed-6970-4dd0-94c6-d0e172bf5558.png)
 
 Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost:8080/about seperti berikut. Maka hasilnya akan terjadi error, yang artinya file/page tersebut tidak ada. Untuk dapat mengakses halaman tersebut, harus dibuat terlebih dahulu Contoller yang sesuai dengan routing yang dibuat yaitu Contoller Page.
 
-![image](https://user-images.githubusercontent.com/101724604/173075130-26e37c18-f7d9-4c25-aa3b-9a1f4d34dfe8.png)
+![Screenshot (314)](https://user-images.githubusercontent.com/101787968/174461310-99b97e36-e574-42ac-a861-223940e6f312.png)
 
 6. Membuat Controller
 Selanjutnya adalah membuat Controller Page. Buat file dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut
-![image](https://user-images.githubusercontent.com/101724604/173094636-45f15f45-8cd9-42a4-9e56-1da16e39a066.png)
+![Screenshot (315)](https://user-images.githubusercontent.com/101787968/174461318-c1aae4e6-b185-4f33-9933-6ae98f009b0e.png)
 
 7. Auto Routing
 Secara default fitur autoroute pada Codeigniter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variablenya. Untuk menonaktifkan ubah nilai true menjadi false
-![image](https://user-images.githubusercontent.com/101724604/173098098-ef8d1c73-4684-4859-b1f9-849e011713b4.png)
+![Screenshot (317)](https://user-images.githubusercontent.com/101787968/174461331-0e850516-c6a1-43ae-a971-aa00c921bf6d.png)
 
 8. Membuat View
 Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut.
