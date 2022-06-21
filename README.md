@@ -60,24 +60,24 @@ Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file
 ![image](https://user-images.githubusercontent.com/101787968/174806219-7bfe2114-c2d6-43c6-a261-19876185f848.png)
 
 Ubah method about pada class Controller Page menjadi seperti berikut:
-![image](https://user-images.githubusercontent.com/101724604/173099867-914ed065-d1f3-493d-ab20-03cbd743b316.png)
+![image](https://user-images.githubusercontent.com/101787968/174806585-5e886593-b0fc-485f-abd9-4a595dd4a26c.png)
 
 Maka hasilnya akan seperti berikut:
-![image](https://user-images.githubusercontent.com/101724604/173100145-3668f409-6a48-40ff-8d2b-dff48361beb3.png)
+![image](https://user-images.githubusercontent.com/101787968/174806831-b9cd00f8-7508-4884-889c-e2d18d95ec2a.png)
 
 9. . Membuat Layout Web dengan CSS
 Pada dasarnya layout web dengan css dapat diimplementasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public.
 
 Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout) Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
-![image](https://user-images.githubusercontent.com/101787968/174805951-7793ff70-24ca-4090-807e-2235a2af80d1.png)
+![image](https://user-images.githubusercontent.com/101787968/174806918-bf376b83-c69c-4e23-9c73-fd23ffe76670.png)
 
 
 Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
-![image](https://user-images.githubusercontent.com/101724604/173104474-e40298b5-c421-49e8-a38c-3b2c8df7cef5.png)
-![image](https://user-images.githubusercontent.com/101724604/173104634-60f0318a-b560-41f4-8164-c916d69fd7c8.png)
+![Screenshot (339)](https://user-images.githubusercontent.com/101787968/174807168-a664e60f-13a1-4190-89c1-866efe8b6439.png)
+![image](https://user-images.githubusercontent.com/101787968/174807248-769a2d6a-51db-4355-8daa-ddcab2db0c76.png)
 
 Maka hasilnya seperti berikut:
-![image](https://user-images.githubusercontent.com/101724604/173109848-d8e5e997-cc7f-4981-9d44-b2b43c73e26b.png)
+![image](https://user-images.githubusercontent.com/101787968/174807345-a71d4c82-022b-4c42-a9f1-8c04103acb2b.png)
 
 PERTANYAAN DAN TUGAS
 
