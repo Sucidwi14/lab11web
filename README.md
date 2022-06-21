@@ -84,7 +84,7 @@ PERTANYAAN DAN TUGAS
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 ![image](https://user-images.githubusercontent.com/101787968/174808319-474f7a45-27b7-4491-9a6a-56c952d2edec.png)
 
-![image](https://user-images.githubusercontent.com/101724604/173111894-85b48e7d-2b87-4d46-8dbf-03e7445fecb5.png)
+![image](https://user-images.githubusercontent.com/101787968/174809334-07bf8513-dc5e-4c0c-9867-8ac8acf72b8e.png)
 
 
 
