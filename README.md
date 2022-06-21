@@ -82,7 +82,7 @@ Maka hasilnya seperti berikut:
 PERTANYAAN DAN TUGAS
 
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
-![image](https://user-images.githubusercontent.com/101724604/173110959-6a19666f-ea29-444e-9a05-6ea6cf4d9132.png)
+![image](https://user-images.githubusercontent.com/101787968/174808319-474f7a45-27b7-4491-9a6a-56c952d2edec.png)
 
 ![image](https://user-images.githubusercontent.com/101724604/173111894-85b48e7d-2b87-4d46-8dbf-03e7445fecb5.png)
 
