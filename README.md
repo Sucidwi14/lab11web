@@ -69,7 +69,7 @@ Maka hasilnya akan seperti berikut:
 Pada dasarnya layout web dengan css dapat diimplementasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public.
 
 Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout) Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
-![image](https://user-images.githubusercontent.com/101724604/173111399-79c564da-da5d-4672-8a43-881f3fe69fb8.png)
+![image](https://user-images.githubusercontent.com/101787968/174805951-7793ff70-24ca-4090-807e-2235a2af80d1.png)
 
 
 Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
