@@ -57,7 +57,7 @@ Secara default fitur autoroute pada Codeigniter sudah aktif. Untuk mengubah stat
 
 8. Membuat View
 Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut.
-![image](https://user-images.githubusercontent.com/101724604/173098978-82427eaf-0177-4b53-b624-1a8d4d6ebf92.png)
+![image](https://user-images.githubusercontent.com/101787968/174806219-7bfe2114-c2d6-43c6-a261-19876185f848.png)
 
 Ubah method about pada class Controller Page menjadi seperti berikut:
 ![image](https://user-images.githubusercontent.com/101724604/173099867-914ed065-d1f3-493d-ab20-03cbd743b316.png)
