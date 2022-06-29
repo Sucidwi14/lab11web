@@ -98,8 +98,6 @@ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah datab
 ![image](https://user-images.githubusercontent.com/101787968/176345501-550efb72-9576-4e46-beb3-0adb08c41ed5.png)
 
 1. Membuat database kemudian membuat Tabel dan masukkan kode pada database query seperti berikut.
-![image](https://user-images.githubusercontent.com/101787968/176347274-a47c9333-304a-4c2a-be15-465d2d30c2e9.png)
-
 2. Konfigurasi koneksi database Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Kemudian melakukan konfigurasi dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env. Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) didepan seperti berikut ini.
 ![image](https://user-images.githubusercontent.com/101787968/176345588-bd91cb87-c2f3-4e48-98c7-489551cf81a3.png)
 
@@ -124,7 +122,7 @@ lalu refresh kembali browser, sehingga akan ditampilkan hasilnya seperti berikut
 
 6. Membuat Tampilan Detail Artikel
 Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view().
-![image](https://user-images.githubusercontent.com/101787968/176346191-ab1cc362-b77f-48b1-bae9-f0cef3e1a1ff.png)
+![image](https://user-images.githubusercontent.com/101787968/176347817-da9b4a43-0c38-4d7e-bc2b-10b47a78cd1c.png)
 
 7. Membuat View Detail Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php seperti berikut.
 ![image](https://user-images.githubusercontent.com/101787968/176346231-5d3cbe68-6e7a-43e0-beff-8766f89537de.png)
