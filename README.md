@@ -95,46 +95,62 @@ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah datab
 Persiapan
 
 Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176345501-550efb72-9576-4e46-beb3-0adb08c41ed5.png)
 
-Langkah 1 Membuat database kemudian membuat Tabel dan masukkan kode pada database query seperti berikut.
+1. Membuat database kemudian membuat Tabel dan masukkan kode pada database query seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176345528-829a4748-32ad-4fb8-8756-73b29c99a569.png
 
+2. Konfigurasi koneksi database Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Kemudian melakukan konfigurasi dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env. Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) didepan seperti berikut ini.
+![image](https://user-images.githubusercontent.com/101787968/176345588-bd91cb87-c2f3-4e48-98c7-489551cf81a3.png)
 
-Langkah 2 Konfigurasi koneksi database Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Kemudian melakukan konfigurasi dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env. Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) didepan seperti berikut ini.
+3. Membuat Model Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php lalu masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176345675-9adcaa7f-b397-4c47-9226-b713c8cbd75a.png)
 
+4. Membuat Controller Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers lalu masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176345856-e535003d-b62e-4180-b7a6-d8cc231793f9.png)
 
-Langkah 3 Membuat Model Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php lalu masukkan kode seperti berikut.
-
-
-Langkah 4 Membuat Controller Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers lalu masukkan kode seperti berikut.
-
-
-Langkah 5 Membuat View Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru
+5. Membuat View Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru
 dengan nama index.php. image
-Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel maka hasilnya akan seperti berikut
+![image](https://user-images.githubusercontent.com/101787968/176345819-ef68db30-48a4-4459-9cb6-583adf4b07ec.png)
+
 selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel maka hasilnya akan seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176345742-30caec5e-242c-460a-bcba-084fcdb6a907.png)
 
 terlihat belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database query agar dapat ditampilkan datanya seperti berikut. 
+![image](https://user-images.githubusercontent.com/101787968/176346080-1fe20508-4284-49e0-85f2-e8c487c655d2.png)
+
 lalu refresh kembali browser, sehingga akan ditampilkan hasilnya seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346114-54c6e9bc-9fa9-4234-a9e7-ca1c8841a980.png)
 
-
-Langkah 6 Membuat Tampilan Detail Artikel
+6. Membuat Tampilan Detail Artikel
 Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view().
+![image](https://user-images.githubusercontent.com/101787968/176346191-ab1cc362-b77f-48b1-bae9-f0cef3e1a1ff.png)
 
-Langkah 7 Membuat View Detail Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php seperti berikut.
+7. Membuat View Detail Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346231-5d3cbe68-6e7a-43e0-beff-8766f89537de.png)
 
-angkah 8 Membuat Routing untuk artikel detail Buka kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail maka hasilnya akan seperti berikut.
+8. Membuat Routing untuk artikel detail Buka kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail maka hasilnya akan seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346280-35ecb6a2-dca3-470d-8b4b-b115b7ef3778.png)
 
-Langkah 9 Membuat Menu Admin Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index() seperti berikut.
+9. Membuat Menu Admin Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index() seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346299-601516b8-fd6a-4179-aa4a-b40e5413c07a.png)
 
 selanjutnya buat view untuk tampilan admin dengan nama admin_index.php seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346333-6ec07ebc-ab26-40aa-a9c5-ae908cd820c9.png)
 
 setelah itu tambahkan routing untuk menu admin seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346370-81cce2d8-ecd2-4645-93a0-586681f8bc9e.png)
 
 Kemudian akses menu admin dengan url http://localhost:8080/admin/artikel seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346407-651d7e33-c588-4c8b-9d7d-b74e9f8044be.png)
 
-Langkah 10 Menambah Data Artikel
+10. Menambah Data Artikel
+![image](https://user-images.githubusercontent.com/101787968/176346455-5da6c262-3cc3-4bde-8b3e-44420c7ebbd6.png)
 
 Tambahkan fungsi/method baru pada Controller Artikel dengan nama add() seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346652-53d082db-db2d-4db6-8f42-443a2d4db585.png)
 
 Kemudian buat view untuk form tambah dengan nama form_add.php seperti berikut.
+![image](https://user-images.githubusercontent.com/101787968/176346561-4203cd4f-f571-40a9-8103-35bc5acff28e.png)
+![image](https://user-images.githubusercontent.com/101787968/176346698-78070a82-0f25-426e-b57f-396431d552ce.png)
 
