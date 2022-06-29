@@ -98,7 +98,7 @@ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah datab
 ![image](https://user-images.githubusercontent.com/101787968/176345501-550efb72-9576-4e46-beb3-0adb08c41ed5.png)
 
 1. Membuat database kemudian membuat Tabel dan masukkan kode pada database query seperti berikut.
-![image](https://user-images.githubusercontent.com/101787968/176345528-829a4748-32ad-4fb8-8756-73b29c99a569.png
+![image](https://user-images.githubusercontent.com/101787968/176347274-a47c9333-304a-4c2a-be15-465d2d30c2e9.png)
 
 2. Konfigurasi koneksi database Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Kemudian melakukan konfigurasi dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env. Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) didepan seperti berikut ini.
 ![image](https://user-images.githubusercontent.com/101787968/176345588-bd91cb87-c2f3-4e48-98c7-489551cf81a3.png)
