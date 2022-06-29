@@ -102,7 +102,7 @@ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah datab
 ![image](https://user-images.githubusercontent.com/101787968/176348140-b8acd57a-3255-4eab-8bd3-9420d069a5aa.png)
 
 3. Membuat Model Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php lalu masukkan kode seperti berikut.
-![image](https://user-images.githubusercontent.com/101787968/176345675-9adcaa7f-b397-4c47-9226-b713c8cbd75a.png)
+![image](https://user-images.githubusercontent.com/101787968/176348345-dbaa2edd-86ad-4df5-94d2-d6307291c68e.png)
 
 4. Membuat Controller Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers lalu masukkan kode seperti berikut.
 ![image](https://user-images.githubusercontent.com/101787968/176345856-e535003d-b62e-4180-b7a6-d8cc231793f9.png)
