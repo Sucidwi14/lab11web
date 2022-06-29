@@ -99,7 +99,7 @@ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah datab
 
 1. Membuat database kemudian membuat Tabel dan masukkan kode pada database query seperti berikut.
 2. Konfigurasi koneksi database Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Kemudian melakukan konfigurasi dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env. Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) didepan seperti berikut ini.
-![image](https://user-images.githubusercontent.com/101787968/176345588-bd91cb87-c2f3-4e48-98c7-489551cf81a3.png)
+![image](https://user-images.githubusercontent.com/101787968/176348140-b8acd57a-3255-4eab-8bd3-9420d069a5aa.png)
 
 3. Membuat Model Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php lalu masukkan kode seperti berikut.
 ![image](https://user-images.githubusercontent.com/101787968/176345675-9adcaa7f-b397-4c47-9226-b713c8cbd75a.png)
