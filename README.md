@@ -212,8 +212,6 @@ Dan pada link pager ubah seperti berikut.
 
 ![image](https://user-images.githubusercontent.com/101787968/177039343-a5b96604-e352-464f-9b46-f9148a2b9151.png)
 
-![image](https://user-images.githubusercontent.com/101787968/177039314-dbc9d9c7-d4f3-4f93-9768-37c46fbabfdf.png
-
 Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
 
 ![image](https://user-images.githubusercontent.com/101787968/177039819-2493f9d7-0d38-4f44-9a00-9fc989e9942d.png)
