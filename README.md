@@ -216,7 +216,7 @@ Dan pada link pager ubah seperti berikut.
 
 Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
 
-![image](https://user-images.githubusercontent.com/101787968/177039362-3764050e-2f76-4b55-88ef-80f05c3f6886.png)
+![image](https://user-images.githubusercontent.com/101787968/177039819-2493f9d7-0d38-4f44-9a00-9fc989e9942d.png)
 
 Langkah 3 Upload Gambar Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
 
