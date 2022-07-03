@@ -177,3 +177,59 @@ Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
 Kemudian buat view untuk form tambah dengan nama form_edit.php
 
 ![image](https://user-images.githubusercontent.com/101787968/177014211-8ec24df1-601f-413c-85c4-0382f1142548.png)
+
+Praktikum 14: Pagination dan Pencarian
+
+Langkah-langkah Praktikum Persiapan Hal pertama yang dilakukan adalah menjalankan Apache & MySQL server di Xampp sebagai berikut
+
+![image](https://user-images.githubusercontent.com/101787968/176345501-550efb72-9576-4e46-beb3-0adb08c41ed5.png)
+
+Langkah 1 Membuat Pagination Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang dari data yang banyak pada sebuah website. Fungsi pagination adalah memecah tampilan menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkan pada setiap halaman.
+
+Pada Codeigniter 4, fungsi pagination sudah tersedia pada Library sehingga cukup mudah menggunakannya
+
+Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut
+
+![image](https://user-images.githubusercontent.com/101787968/177039271-3d5344a4-9c23-4153-99c6-2361f114c2d9.png)
+
+Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut dibawah deklarasi tabel data.
+
+![image](https://user-images.githubusercontent.com/101787968/177039276-32410a1d-2b48-47e2-a0e4-3c9eb55a5077.png)
+
+Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
+
+![image](https://user-images.githubusercontent.com/101787968/177039289-602b2fab-0536-49dc-bdcd-876951401318.png)
+
+Membuat Pencarian. Pencarian data digunakan untuk memfilter data.Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut
+
+![image](https://user-images.githubusercontent.com/101787968/177039305-5b4a1fe8-2df7-4acc-91cb-a3cb80616041.png)
+
+Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut.
+
+![image](https://user-images.githubusercontent.com/101787968/177039323-3589da89-c258-4d72-8ef2-f167300bac85.png)
+
+Dan pada link pager ubah seperti berikut.
+
+![image](https://user-images.githubusercontent.com/101787968/177039343-a5b96604-e352-464f-9b46-f9148a2b9151.png)
+
+![image](https://user-images.githubusercontent.com/101787968/177039314-dbc9d9c7-d4f3-4f93-9768-37c46fbabfdf.png
+
+Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
+
+![image](https://user-images.githubusercontent.com/101787968/177039362-3764050e-2f76-4b55-88ef-80f05c3f6886.png)
+
+Langkah 3 Upload Gambar Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+
+![image](https://user-images.githubusercontent.com/101787968/177039368-dd2576f4-107f-4c74-8016-05570a687ea1.png)
+
+Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut.
+
+![image](https://user-images.githubusercontent.com/101787968/177039386-c227692a-b9d2-4943-9645-3f9b501effa7.png)
+
+Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut
+
+![image](https://user-images.githubusercontent.com/101787968/177039401-09bd9b14-e0bc-489a-9fd7-9ec1b293a317.png)
+
+Ujicoba file upload dengan mengakses menu tambah artikel.
+
+![image](https://user-images.githubusercontent.com/101787968/177039405-bfe96e65-cc0a-4947-88c1-a2d9138a2820.png)
